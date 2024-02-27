@@ -8,7 +8,7 @@ To generate an SD image run the following command:
  $> nix build .#packages.riscv64-linux.microchip-icicle-kit-<release/debug>
 ```
 
-After successful compilation it generates sdimage `./result/nixos.img` which can programmed in sdcard to boot the board.
+After successful compilation it generates sdimage `./result/nixos.img` which can be programmed in sdcard to boot the board.
 
 To program the sdimage use following command: 
 
