@@ -27,7 +27,7 @@
 
     postBuildCommands = ''
       sdimage="$out/nixos.img"
-      fwoffset=64
+      fwoffset=66
       blocksize=512
       fwsize=20400
       rootoffset=20800
